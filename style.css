@@ -8,7 +8,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .mycord{
-    gap:48px;
+    gap:50px;
     flex-direction: row;
     align-items: center; 
     display: flex;
@@ -54,5 +54,13 @@
     align-items: center; /* Centrage vertical */
     text-align: center;  /* Centrage du texte */
   }
-  
-}
+  @media (max-width: 160px)  {
+       #font{
+        background-image: url(./sallon.jpg);
+        background-size: cover;  /* Permet à l'image de couvrir tout l'écran */
+        background-position: center;  /* Centrer l'image dans l'écran */
+        background-repeat: no-repeat;  /* Empêche l'image de se répéter */
+      }
+       
+ }
+
