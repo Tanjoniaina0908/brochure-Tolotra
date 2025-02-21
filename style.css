@@ -1,62 +1,78 @@
 .font{
-    background-image: url(sallon.jpg);
-    color: rgb(255, 255, 255);
+    color: rgb(175, 155, 68);
     padding: 100px;
     font-weight: 600;
     font-style: oblique;
-    fwont-weight: bold ;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    background-color: rgb(27, 27, 46);
+    
 }
 .mycord{
-    gap:50px;
-    flex-direction: row;
     align-items: center; 
     display: flex;
-    padding-left: 20%;
-    padding-bottom: 5px;
+    padding-top: 0%;
+    padding-left: 10%;
+    padding-bottom: 30px;
     background-color: #9b949480; /* Rouge avec 50% de transparence */
-    /* transition: background-color 1s ease */
-    font-size: 40px;
+    transition: background-color 1s ease
+    
+    
 }
 .nom{
+    padding-top: 10%;
     font-style: oblique;
-    /* font-family: 'impact', sans-serif; */
     
+    /* font-family: 'impact', sans-serif; */
+     
 }
 .myprofil{
-        border-radius: 100px;
-        width: 200px; /* Ajuste la taille selon tes besoins */
-        overflow: hidden;
-        object-fit: cover; /* Pour que l'image remplisse bien l'espace */
-        animation: 3s;    
-    }
-    .image{
-        animation: deplacement 5s infinite alternate;
-    }
     
-.call{
-    grid-column-end: auto; 
-    text-align: center;
-    text-align: start;
-    padding: 50px;
+    margin-right:80px ;
+    position: absolute;
+    left: 50%;
+    border-radius: 100px;
+    width: 200px; /* Ajuste la taille selon tes besoins */
+    overflow: hidden;
+    object-fit: cover; /* Pour que l'image remplisse bien l'espace */  
+    }
+ .email{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+ } 
+ .whatsapp{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+ }  
+ .FB{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: row;
+ }
+.call{ display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+.corp{
+    padding: 3%;
+    
 }
 .deco{
     border-width: 80px;
     border: right 20px; ;
     background-color: rgb(27, 27, 46);
-    color: aliceblue;
-    /* padding: 20px; */
-    /* display: inline-block; La bordure s'adapte à la taille du texte */
-    /* padding: 2px; Un peu d'espace entre le texte et la bordure */
-    border: 2px solid black; /* Bordure autour de la boîte */
-    display: flex;       /* Utilisation de Flexbox */
-    justify-content: center; /* Centrage horizontal */
-    align-items: center; /* Centrage vertical */
-    text-align: center;  /* Centrage du texte */
+    color: aliceblue; 
+    display: inline-block; La bordure s'adapte à la taille du texte
+;    display: grid;
+     place-items: center;  /* Centre à la fois horizontalement et verticalement */
+     
   }
   @media (max-width: 160px)  {
        #font{
-        background-image: url(./sallon.jpg);
         background-size: cover;  /* Permet à l'image de couvrir tout l'écran */
         background-position: center;  /* Centrer l'image dans l'écran */
         background-repeat: no-repeat;  /* Empêche l'image de se répéter */
