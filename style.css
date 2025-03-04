@@ -71,12 +71,19 @@
      place-items: center;  /* Centre à la fois horizontalement et verticalement */
      
   }
-  @media (max-width: 160px)  {
-       #font{
-        background-size: cover;  /* Permet à l'image de couvrir tout l'écran */
-        background-position: center;  /* Centrer l'image dans l'écran */
-        background-repeat: no-repeat;  /* Empêche l'image de se répéter */
-      }
-       
- }
+  .body{
+    max-width: 320px;
+    padding-bottom: 50px;
+    height: 291px;
+}
+  
+       @media  {
+        .body{
+            max-width: 320px;
+            padding-bottom: 50px;
+            height: 291px;
+        }
+       }
 
+
+       
