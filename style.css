@@ -65,7 +65,7 @@
     display: inline-block; La bordure s'adapte à la taille du texte
 ;    display: grid;
      place-items: center;  /* Centre à la fois horizontalement et verticalement */ ;
-    margin-top: 20%;
+    margin-top: 40%;
   }
   .body{
     max-height: 200px ;
@@ -76,6 +76,7 @@
         };
         .body{
             max-width: 681px;
+            min-height:692px ;
         }
         }
        }
