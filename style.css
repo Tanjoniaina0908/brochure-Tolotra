@@ -1,6 +1,6 @@
 .font{
     color: rgb(175, 155, 68);
-    padding: 100px;
+    padding: 10px;
     font-weight: 600;
     font-style: oblique;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
@@ -12,18 +12,14 @@
     display: flex;
     padding-top: 0%;
     padding-left: 10%;
-    padding-bottom: 30px;
+    padding-bottom: 3px;
     background-color: #9b949480; /* Rouge avec 50% de transparence */
-    transition: background-color 1s ease
-    
-    
+    /* transition: background-color 1s ease */    
 }
 .nom{
     padding-top: 10%;
-    font-style: oblique;
-    
-    /* font-family: 'impact', sans-serif; */
-     
+    font-style: oblique;  
+    /* font-family: 'impact', sans-serif; */     
 }
 .myprofil{
     
@@ -59,7 +55,7 @@
 }
 .corp{
     padding: 3%;
-    
+  height:1px;
 }
 .deco{
     border-width: 80px;
@@ -68,22 +64,19 @@
     color: aliceblue; 
     display: inline-block; La bordure s'adapte à la taille du texte
 ;    display: grid;
-     place-items: center;  /* Centre à la fois horizontalement et verticalement */
-     
+     place-items: center;  /* Centre à la fois horizontalement et verticalement */ ;
+    margin-top: 20%;
   }
   .body{
-    max-width: 320px;
-    padding-bottom: 50px;
-    height: 291px;
+    max-height: 200px ;
 }
-  
-       @media  {
+       @media( max-width: 320px;)  {
         .body{
-            max-width: 320px;
-            padding-bottom: 50px;
-            height: 291px;
+           height: 30vh; /* Hauteur réduite pour les petits écrans */  
+        };
+        .body{
+            max-width: 681px;
+        }
         }
        }
-
-
        
